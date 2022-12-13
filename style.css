@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    background-color: var(--Light-grayish-blue);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+
+:root{
+    /*Primary */
+
+--Moderate-violet: hsl(263, 55%, 52%);
+--Very-dark-grayish-blue: hsl(217, 19%, 35%);
+--Very-dark-blackish-blue: hsl(219, 29%, 14%);
+--White: hsl(0, 0%, 100%);
+
+/* Neutral */
+
+--Light-gray: hsl(0, 0%, 81%);
+--Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+main{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+    right: 10%;
+    margin-top: 50px;
+}
+
+article.Primary{
+    display: flex;
+    gap: 2rem;
+}
+
+article.Primary > section.One{
+    background-color: var(--Moderate-violet);
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 71% 0%;
+    color: white;
+    width: 500px;
+    height: 260px;
+    border-radius: 7px;
+    padding: 25px;
+    margin-bottom: 2rem;
+}
+
+div.Daniel,
+div.Jonathan,
+div.Jeanette, 
+div.Patrick,
+div.Kira {
+    display: flex;
+}
+
+div.Daniel > img,
+div.Jonathan > img,
+div.Jeanette > img,
+div.Patrick  > img,
+div.Kira > img {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    margin: 0 1rem 1rem 0;
+}
+
+div.Daniel h2,
+div.Jonathan h2,
+div.Jeanette h2,
+div.Patrick  h2,
+div.Kira h2 {
+    font-size: 13px;
+}
+
+div.Daniel span,
+div.Jonathan span,
+div.Jeanette span,
+div.Patrick span, 
+div.Kira span {
+    opacity: 0.4;
+    font-size: 12px;
+}
+
+article.Primary div.content > p.One{
+    line-height: 22px;
+    font-size: 17px;
+    width: 400px;
+}
+
+article.Primary div.content > p.Two{
+    line-height: 17px;
+    margin-top: 15px;
+    opacity: 0.5;
+    width: 470px;
+}
+
+article.Primary > section.Two{
+    background-color: var(--Very-dark-grayish-blue);
+    color: white;
+    width: 250px;
+    height: 260px;
+    border-radius: 7px;
+    padding: 25px;
+}
+
+article.Primary div.content-Two > p.One{
+    font-size: 17px;
+    line-height: 22px;
+    width: 170px;
+}
+
+article.Primary div.content-Two > p.Two{
+    width: 200px;
+    line-height: 17px;
+    margin-top: 15px;
+    opacity: 0.5;   
+}
+
+article.Secondary{
+    display: flex;
+    gap: 2rem;
+}
+
+article.Secondary > section.One{
+    width: 250px;
+    border-radius: 7px;
+    padding: 25px;
+    background-color: var(--White);
+}
+
+article.Secondary div.content > p.One{
+    color: var(--Very-dark-grayish-blue);
+    font-size: 17px;
+    line-height: 22px;
+    width: 150px;
+}
+
+article.Secondary div.content > p.Two{
+    line-height: 17px;
+    margin-top: 20px;
+    opacity: 0.5;
+    width: 200px;
+}
+
+article.Secondary > section.Two{
+    background-color: var(--Very-dark-blackish-blue);
+    color: white;
+    width: 500px;
+    height: 260px;
+    border-radius: 7px;
+    padding: 25px;
+}
+
+article.Secondary div.content-Two > p.One{
+    font-size: 17px;
+    line-height: 22px;
+    width: 400px;
+}
+
+article.Secondary div.content-Two > p.Two{
+    line-height: 17px;
+    margin-top: 20px;
+    opacity: 0.5;
+    width: 460px;
+}
+
+article.Tertiary > section.One{
+    color: var(--Very-dark-grayish-blue);
+    background-color: white;
+    border-radius: 7px;
+    padding: 25px;
+    width: 240px;
+    height: 555px;
+}
+
+article.Tertiary div.content > p.One{
+    font-size: 17px;
+    line-height: 22px;
+}
+
+article.Tertiary div.content > p.Two{
+    line-height: 17px;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 330px) and (max-width: 420px) {
+    main,
+    article.Primary,
+    article.Secondary,
+    article.Tertiary {
+        flex-direction: column;
+    }
+
+    div.Daniel h2,
+    div.Jonathan h2,
+    div.Jeanette h2,
+    div.Patrick  h2,
+    div.Kira h2 {
+        font-size: 12px;
+    }
+
+    div.Daniel span,
+    div.Jonathan span,
+    div.Jeanette span,
+    div.Patrick span, 
+    div.Kira span {
+        opacity: 0.4;
+        font-size: 10px;
+    }
+    article.Primary > section.One{
+        width: 330px;
+        height: 410px;
+    }
+    
+    article.Primary > section.One{
+        margin: 0;
+        background-position: 85% 0%;
+    }
+
+    article.Primary div.content > p.One{
+        font-size: 19px;
+        width: 245px;
+    }
+    
+    article.Primary div.content > p.Two{
+        width: 250px;
+    }
+
+    article.Primary > section.Two{
+        margin-bottom: 2rem;
+        width: 330px;
+        height: 230px;
+    }
+
+    article.Primary div.content-Two > p.One{
+        font-size: 19px;
+        width: 250px;
+    }
+
+    article.Primary div.content-Two > p.Two{
+        width: 280px;
+    }
+
+    article.Secondary > section.One{
+        width: 330px;
+        height: 230px;
+    }
+
+    article.Secondary div.content > p.One{
+        font-size: 19px;
+        width: 200px;
+    }
+
+    article.Secondary div.content > p.Two{
+        width: 250px;
+    }
+
+    article.Secondary > section.Two{
+        width: 330px;
+        height: 370px;
+    }
+
+    article.Secondary div.content-Two > p.One{
+        font-size: 19px;
+        width: 250px;
+    }
+
+    article.Secondary div.content-Two > p.Two{
+        width: 250px;
+    }
+
+    article.Tertiary > section.One{
+        width: 330px;
+        height: 440px;
+    }
+
+    article.Tertiary div.content > p.One{
+        font-size: 19px;
+    }
+
+    article.Tertiary div.content > p.Two{
+        width: 250px;
+    }
+
+}
