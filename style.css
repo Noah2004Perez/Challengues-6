@@ -51,6 +51,9 @@ article.Primary > section.One{
     background-image: url(/images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position: 71% 0%;
+    box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
+    -moz-box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
     color: white;
     width: 500px;
     height: 260px;
@@ -110,6 +113,9 @@ article.Primary div.content > p.Two{
 
 article.Primary > section.Two{
     background-color: var(--Very-dark-grayish-blue);
+    box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
+    -moz-box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
     color: white;
     width: 250px;
     height: 260px;
@@ -140,6 +146,9 @@ article.Secondary > section.One{
     border-radius: 7px;
     padding: 25px;
     background-color: var(--White);
+    box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
+    -moz-box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
 }
 
 article.Secondary div.content > p.One{
@@ -158,6 +167,9 @@ article.Secondary div.content > p.Two{
 
 article.Secondary > section.Two{
     background-color: var(--Very-dark-blackish-blue);
+    box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
+    -moz-box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
     color: white;
     width: 500px;
     height: 260px;
@@ -180,6 +192,9 @@ article.Secondary div.content-Two > p.Two{
 
 article.Tertiary > section.One{
     color: var(--Very-dark-grayish-blue);
+    box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
+    -moz-box-shadow: 22px 20px 33px -26px rgba(0,0,0,0.38);
     background-color: white;
     border-radius: 7px;
     padding: 25px;
