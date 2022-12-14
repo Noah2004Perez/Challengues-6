@@ -34,10 +34,10 @@ body{
 main{
     display: flex;
     gap: 2rem;
+    align-items: center;
     justify-content: center;
     position: relative;
-    left: 10%;
-    right: 10%;
+    margin: 0 auto;
     margin-top: 50px;
 }
 
